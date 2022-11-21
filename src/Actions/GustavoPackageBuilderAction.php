@@ -1,6 +1,6 @@
 <?php
 
-namespace GustavoViniciusDeMorais\GustavoPackageBuilder\Actions;
+namespace Modules\Builder\Actions;
 
 class GustavoPackageBuilderAction
 {

@@ -1,11 +1,11 @@
 {
-    "name": "gustavoviniciusdemorais/gustavo-package-builder",
+    "name": "modules/builder",
     "description": "Package Builder",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "GustavoViniciusDeMorais\\GustavoPackageBuilder\\": "src/"
+            "Modules\\Builder\\": "src/"
         }
     },
     "authors": [{
@@ -15,10 +15,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "GustavoViniciusDeMorais\\GustavoPackageBuilder\\Providers\\GustavoPackageBuilderServiceProvider"
+                "Modules\\Builder\\Providers\\GustavoPackageBuilderServiceProvider"
             ],
             "aliases": {
-                "GustavoPackageBuilder": "GustavoViniciusDeMorais\\GustavoPackageBuilder\\Facades\\GustavoPackageBuilderFacade"
+                "GustavoPackageBuilder": "Modules\\Builder\\Facades\\GustavoPackageBuilderFacade"
             }
         }
     }

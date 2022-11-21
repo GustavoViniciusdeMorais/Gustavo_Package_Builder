@@ -1,6 +1,6 @@
 <?php
 
-namespace GustavoViniciusDeMorais\GustavoPackageBuilder\Commands;
+namespace Modules\Builder\Console\Commands;
 
 use Illuminate\Console\Command;
 

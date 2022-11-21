@@ -1,8 +1,8 @@
 <?php
 
-namespace GustavoViniciusDeMorais\GustavoPackageBuilder;
+namespace Modules\Builder;
 
-use GustavoViniciusDeMorais\GustavoPackageBuilder\Actions\GustavoPackageBuilderAction;
+use Modules\Builder\Actions\GustavoPackageBuilderAction;
 
 class GustavoPackageBuilder
 {

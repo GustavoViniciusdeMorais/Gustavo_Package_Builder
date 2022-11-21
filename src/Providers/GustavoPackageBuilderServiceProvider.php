@@ -1,10 +1,10 @@
 <?php
 
-namespace GustavoViniciusDeMorais\GustavoPackageBuilder\Providers;
+namespace Modules\Builder\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use GustavoViniciusDeMorais\GustavoPackageBuilder\GustavoPackageBuilder;
-use GustavoViniciusDeMorais\GustavoPackageBuilder\Commands\TestCommand;
+use Modules\Builder\GustavoPackageBuilder;
+use Modules\Builder\Console\Commands\TestCommand;
 
 class GustavoPackageBuilderServiceProvider extends ServiceProvider
 {
@@ -20,7 +20,7 @@ class GustavoPackageBuilderServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app->singleton('gustavo-package-builder', function ($app) {
+        $this->app->singleton('builder', function ($app) {
             return new GustavoPackageBuilder();
         });
     }
